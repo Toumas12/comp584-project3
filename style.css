@@ -26,6 +26,7 @@ a {
 .row {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
+  /* Gives automatic rows a minimum height while letting content expand them. */
   grid-auto-rows: minmax(12rem, auto);
   gap: 1rem;
   margin-bottom: 1rem;
